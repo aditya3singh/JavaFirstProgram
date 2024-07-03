@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class AcronymGenerator {
 
     public static String getAcronym(String phrase) {
-        // Remove "of" (case-insensitive)
         phrase = phrase.replaceAll("(?i)of", "");
 
         // Split the phrase into words
